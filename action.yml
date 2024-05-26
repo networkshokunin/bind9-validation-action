@@ -1,0 +1,9 @@
+name: 'action-bind9-validation'
+author: 'David Lim'
+description: 'Validates the syntax and integrity of ISC Bind9 config and zone files'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'code'
+  color: 'yellow'
